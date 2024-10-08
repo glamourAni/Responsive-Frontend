@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+  font-family: "Poppins", Sans-Serif;
+  height: 90vh;
+  margin: 0;
+  background-image: url('/assets/coffee-beans.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  background-color: burlywood;
+  width: 70%;
+  padding: 1em 1.5em;
+}
+header, .menu-type, footer {
+  text-align: center;
+}
+header > h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.quote {
+  margin: .9rem ;
+}
+.separator {
+  height: 5px;
+  background-color: #d81522;
+  margin: 2em 0;
+}
+.menu-type > h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+svg {
+  margin: 0;
+  color: burlywood;
+}
+.items{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+.price, .item {
+  margin-bottom: 1px;
+}
+a {
+  color: #000;
+}
